@@ -1,2 +1,4 @@
 # portfolio
- My first professional portfolio:  https://jercowd.github.io/
+ My first professional portfolio:  
+  - pages origin: https://jercowd.github.io/
+  - squarespace domain: jeremycowden.com
