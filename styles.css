@@ -82,10 +82,18 @@ strong {
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
+  max-width: 275px;
 }
 
 .btn:hover {
   transform: scale(1.1);
+}
+
+.portfolio__btn {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 75px;
+  margin-top: -50px;
 }
 
 /* Typography */
