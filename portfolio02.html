@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JerCowd Portfolio Website</title>
+    <title>Kirby Clone</title>
     <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
     <link rel="stylesheet"
@@ -19,8 +19,7 @@
   <body>
     <header>
       <div class="logo">
-        <!-- add pictures to img folder: "img/devjane.png" goes in src -->
-        <img src="" alt="">
+        <img src="img/logo.png" alt="">
       </div>
       <button class="nav-toggle" aria-label="toggle navigation">
         <span class="hamburger"></span>
@@ -35,21 +34,34 @@
       </nav>
     </header>
 
-    <section class="intro">
-      <h1 class="section__title section__title--intro">
-        The title <strong>of my project</strong>
-      </h1>
-      <p class="section__subtitle section__subtitle--intro">Portfolio Item 2</p>
-      <img src="img/portfolio-02.jpg" alt="" class="intro__img">
+    <section class="about-me">
+      <h2 class="section__title section__title--about">
+        Kirby Game Clone
+      </h2>
+      <p class="section__subtitle section__subtitle--about">Skills: TypeScript, Kaboom.js</p>
+      <img src="https://media1.tenor.com/m/oziJ-NZiXmAAAAAC/kirby-suck.gif" alt="" class="about-me__img">
+      <div class="about-me__body">
+        <p><strong>Learning TypeScript and Kaboom.js by Building a Kirby-like Clone</strong></p>
+        <p>
+          This project is a 2D platformer inspired by the classic Kirby series, built using TypeScript and
+          Kaboom.js. It features sprite-based graphics, animations, and multiple enemy types, including
+          Flame, Guy, and Bird enemies. Players can explore levels (additional levels still in development)
+          designed with spawn points, colliders, and smooth camera controls, making gameplay engaging and
+          fluid. The game is web-based, offering an easy-to-access experience right in the browser.
+        </p>
+        <p>
+          The game leverages Kaboom.js to create a custom engine, complete with a player character that has
+          movement and abilities. The project structure includes TypeScript source files for defining entities,
+          game mechanics, and level design. Players can jump, move, and interact with the environment across
+          carefully crafted levels, creating a fun and dynamic gaming experience.
+        </p>
+        <p><strong>Controls:</strong></p>
+        <p>Z = Inhale | X = Jump | Left Arrow = Move left | Right Arrow = Move right</p>
+      </div>
     </section>
-
-    <div class="portfolio-item-individual">
-      <p>blah blah blah</p>
-      <img src="img/portfolio-details.jpg" alt="">
-      <p>blah blah blah</p>
-      <p>blah blah blah</p>
+    <div class="portfolio__btn">
+      <a href="https://jeremycowden.com/kirby-ts/" class="btn" target="_blank">Click here to try it out!</a>
     </div>
-
 
     <!-- Footer -->
     <footer class="footer">
